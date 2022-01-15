@@ -1,0 +1,80 @@
+/* common style start  */
+section{
+    padding: 30px 80px;
+}
+/* common style End */
+/* header banner Start  */
+/* nav start  */
+nav{
+    padding: 10px 0px 30px 0px;
+}
+menu h1{
+    position: absolute;
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+ul{
+    flex-direction: row;
+    justify-content: flex-end  ;
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+ul li a{
+    background-color: transparent;
+}
+ul li a:hover{
+    background-color: transparent;
+    color: black;
+}
+/* nav end */
+header{
+    height: 100vh;
+}
+.header-banner{
+    flex-direction: row;
+}
+  .header-title {
+      width: 50%;
+      text-align: left;
+  }
+  .header-title h1{
+      font-size: 52px;
+      margin-top: 20px;
+  }
+  .header-title p{
+      font-size: 16px;
+      margin: 20px 0px 40px 0px;
+  }
+  .header-title a i{
+      font-size: 1rem;
+      margin-left: 6px;
+  }
+  .header-img {
+    width: 50%;
+  }
+  .header-img img {
+     margin-left: 70px;
+   
+  }
+  /*---------------------
+  header banner End 
+  ---------------------- */
+
+
+  /* brand section start  */
+.all-brand{
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    grid-gap: 55px;
+    padding-left: 110px;
+}
+
+  /* brand section end */
+  /* popular section start  */
+  .all-popular{
+      grid-template-columns: repeat(3, 1fr);
+  }
+  /* popular section end */

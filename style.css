@@ -1,7 +1,156 @@
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* common styles Start  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: "poppins", sans-serif;
+}
+section {
+  padding: 30px 40px;
+  
+}
+.section-title{
+    color: #3A3A3A;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* common styles End */
+
+/* header design Start  */
+/* nav start  */
+menu h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #3a3a3a;
+  background-color: #e9dce1;
+  display: block;
+  padding: 7px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+ul li a:hover {
+  background-color: #e02c6d;
+  color: white;
+}
+/* nav end */
+
+.header-banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header-title h1 {
+  font-size: 2rem;
+  color: #3a3a3a;
+}
+.header-title p {
+  margin: 15px 0px 30px 0px;
+}
+.header-title a {
+  text-decoration: none;
+  font-size: 1rem;
+  background: #e02c6d;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+.header-title a:hover {
+  background: #ce004b;
+}
+.header-img {
+  margin-top: 40px;
+}
+.header-img img {
+  width: 400px;
+  border-radius: 50px;
+  background-color: rgba(93, 99, 87, 0.123);
+}
+/* header design End */
+
+/* brand logo section Start */
+
+.all-brand{
+    padding-top: 15px;
+    border: 2px solid gainsboro;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.brand img{
+    width: 90px;
+}
+
+/* brand logo section End */
+
+/* popular section start  */
+.all-popular{
+    display: grid;
+    grid-row-gap: 20px;
+    justify-items: center;
+    
+}
+.popular{
+    box-shadow: 0px 0px 60px 20px #5e636631;
+    width: 329px;
+    height: 476px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+.popular h1{
+    font-size: 28px;
+    color: #18191F;
+}
+.popular h5{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 2px 0px;
+    font-weight: 400;
+}
+.fas{
+    font-size: 14px;
+    margin: 2px 0px 7px 0px;
+}
+.filled{
+    color: #FB8200;
+}
+.half-filled{
+    color:#FB8200;
+    
+}
+.empty{
+    color: #787885;
+}
+.popular p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #787885;
+}
+
+
+/* popular section End */
