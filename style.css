@@ -79,7 +79,7 @@ ul li a:hover {
   margin-top: 40px;
 }
 .header-img img {
-  width: 400px;
+  width: 280px;
   border-radius: 50px;
   background-color: rgba(93, 99, 87, 0.123);
 }
@@ -114,13 +114,16 @@ popular section start
 }
 .popular {
   box-shadow: 0px 0px 60px 20px #5e636631;
-  width: 329px;
+  width: 280px;
   height: 476px;
   display: inline-block;
   padding: 15px;
   border-radius: 8px;
   background-color: white;
   margin-top: 20px;
+}
+.popular img {
+  width: 250px;
 }
 .popular h1 {
   font-size: 28px;
@@ -136,7 +139,8 @@ popular section start
   font-size: 14px;
   margin: 2px 0px 7px 0px;
 }
-.filled, .half-filled {
+.filled,
+.half-filled {
   color: #fb8200;
 }
 .empty {
@@ -202,13 +206,13 @@ popular section start
   position: absolute;
   bottom: 50px;
   z-index: 0;
-  transition: 20s ease-out;
+  transition: 5s;
 }
 .cycle img {
   width: 50px;
 }
 section:hover .cycle {
-  transform: translate(300px);
+  transform: translate(190px);
 }
 .cloud-1 {
   position: absolute;
@@ -253,17 +257,18 @@ footer .footer-content {
 }
 .footer-content i {
   color: white;
-  font-size: 32px;
-  margin-left: 30px;
+  font-size: 18px;
+  margin-left: 10px;
   background-color: #22213c;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   display: flex;
-  text-align: center;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
+
 .media-icon a {
   display: inline-block;
   text-decoration: none;

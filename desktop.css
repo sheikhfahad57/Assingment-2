@@ -57,6 +57,7 @@ header {
 }
 .header-img img {
   margin-left: 70px;
+  width: 400px;
 }
 /*---------------------
   header banner End 
@@ -74,6 +75,12 @@ header {
 /* popular section start  */
 .all-popular {
   grid-template-columns: repeat(3, 1fr);
+}
+.popular{
+  width: 329px;
+}
+.popular img{
+  width: 100%;
 }
 .popular-section .see-more {
   text-align: end;
@@ -94,10 +101,10 @@ header {
   width: 110px;
 }
 .cycle {
-  transition: 10s ease-out;
+  transition: 10s ;
 }
 .field:hover .cycle {
-  transform: translate(1060px);
+  transform: translate(1000px);
 }
 .cloud-1 i,
 .cloud-2 i,
@@ -105,4 +112,14 @@ header {
   font-size: 50px;
 }
 
-/* extra section end */
+/* Animation section end */
+
+/* footer section start  */
+.footer-content i {
+  font-size: 32px;
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+/* footer section end */
