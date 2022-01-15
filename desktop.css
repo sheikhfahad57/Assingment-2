@@ -1,83 +1,108 @@
 /* common style start  */
-section{
-    padding: 30px 80px;
+section {
+  padding: 30px 80px;
 }
 /* common style End */
 /* header banner Start  */
 /* nav start  */
-nav{
-    padding: 10px 0px 30px 0px;
+nav {
+  padding: 10px 0px 30px 0px;
 }
-menu h1{
-    position: absolute;
-    text-align: left;
-    margin-bottom: 0px;
-    font-size: 24px;
+menu h1 {
+  position: absolute;
+  text-align: left;
+  margin-bottom: 0px;
+  font-size: 24px;
 }
-ul{
-    flex-direction: row;
-    justify-content: flex-end  ;
+ul {
+  flex-direction: row;
+  justify-content: flex-end;
 }
-ul li{
-    display: inline-block;
-    margin-left: 20px;
+ul li {
+  display: inline-block;
+  margin-left: 20px;
 }
-ul li a{
-    background-color: transparent;
+ul li a {
+  background-color: transparent;
 }
-ul li a:hover{
-    background-color: transparent;
-    color: black;
+ul li a:hover {
+  background-color: transparent;
+  color: #e02ce0;
 }
 /* nav end */
-header{
-    height: 100vh;
+header {
+  height: 100vh;
 }
-.header-banner{
-    flex-direction: row;
+.header-banner {
+  flex-direction: row;
 }
-  .header-title {
-      width: 50%;
-      text-align: left;
-  }
-  .header-title h1{
-      font-size: 52px;
-      margin-top: 20px;
-  }
-  .header-title p{
-      font-size: 16px;
-      margin: 20px 0px 40px 0px;
-  }
-  .header-title a i{
-      font-size: 1rem;
-      margin-left: 6px;
-  }
-  .header-img {
-    width: 50%;
-  }
-  .header-img img {
-     margin-left: 70px;
-   
-  }
-  /*---------------------
+.header-title {
+  width: 50%;
+  text-align: left;
+}
+.header-title h1 {
+  font-size: 52px;
+  margin-top: 20px;
+}
+.header-title p {
+  font-size: 16px;
+  margin: 20px 0px 40px 0px;
+}
+.header-title a i {
+  font-size: 1rem;
+  margin-left: 6px;
+}
+.header-img {
+  width: 50%;
+}
+.header-img img {
+  margin-left: 70px;
+}
+/*---------------------
   header banner End 
   ---------------------- */
 
-
-  /* brand section start  */
-.all-brand{
-    grid-template-columns: repeat(7, 1fr);
-    align-items: center;
-    grid-gap: 55px;
-    padding-left: 110px;
+/* brand section start  */
+.all-brand {
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  grid-gap: 55px;
+  padding-left: 110px;
 }
 
-  /* brand section end */
-  /* popular section start  */
-  .all-popular{
-      grid-template-columns: repeat(3, 1fr);
-  }
-.popular-section .see-more{
-      text-align: end;
-  }
-  /* popular section end */
+/* brand section end */
+/* popular section start  */
+.all-popular {
+  grid-template-columns: repeat(3, 1fr);
+}
+.popular-section .see-more {
+  text-align: end;
+}
+/* popular section end */
+
+/* extra section Start  */
+.hidden-area {
+  width: 109px;
+}
+.store i {
+  font-size: 100px;
+}
+.home i {
+  font-size: 100px;
+}
+.cycle img {
+  width: 110px;
+}
+.cycle {
+  transition: 10s ease-out;
+}
+.field:hover .cycle {
+  transform: translate(1060px);
+}
+.cloud-1 i,
+.cloud-2 i,
+.cloud-3 i {
+  font-size: 50px;
+}
+
+/* extra section end */
