@@ -77,4 +77,7 @@ header{
   .all-popular{
       grid-template-columns: repeat(3, 1fr);
   }
+.popular-section .see-more{
+      text-align: end;
+  }
   /* popular section end */
