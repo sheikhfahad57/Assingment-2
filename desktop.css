@@ -88,6 +88,7 @@ header {
 /* popular section end */
 
 /* extra section Start  */
+
 .hidden-area {
   width: 109px;
 }
@@ -101,7 +102,7 @@ header {
   width: 110px;
 }
 .cycle {
-  transition: 10s ;
+  transition: 10s ease-out ;
 }
 .field:hover .cycle {
   transform: translate(1000px);
@@ -110,6 +111,14 @@ header {
 .cloud-2 i,
 .cloud-3 i {
   font-size: 50px;
+}
+hr{
+  position: relative;
+  z-index: 15;
+  display: block;
+  border: 1px dashed black;
+  top: 240px;
+  margin: 0px 20px;
 }
 
 /* Animation section end */
