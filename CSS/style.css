@@ -160,10 +160,10 @@ popular section start
   font-weight: bolder;
   color: #e02c6d;
   border-radius: 12px;
-  padding: 3px 5px;
+  padding: 5px 7px;
 }
 .see-more a:hover {
-  border: 1px solid #eb5d91;
+  border: 1px solid #000000;
 }
 
 /* popular section End */
